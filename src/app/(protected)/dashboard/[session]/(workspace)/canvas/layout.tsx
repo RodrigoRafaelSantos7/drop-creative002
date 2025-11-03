@@ -5,7 +5,7 @@ type LayoutProps = {
 };
 
 const Layout = ({ children }: LayoutProps) => (
-  <div className="h-full w-screen">
+  <div className="h-full min-w-screen">
     {children}
     <Toolbar />
   </div>
