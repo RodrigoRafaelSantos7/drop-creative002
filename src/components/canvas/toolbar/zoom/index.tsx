@@ -16,7 +16,7 @@ const ZoomBar = () => {
     <div className="col-span-1 flex items-center justify-end">
       <div className="flex items-center gap-1 rounded-full border border-white/12 bg-white/8 p-3 saturate-150 backdrop-blur-xl">
         <Button
-          className="botder-transparent size-9 cursor-pointer rounded-full border p-0 transition-all hover:border-white/16 hover:bg-white/12"
+          className="border-transparent size-9 cursor-pointer rounded-full border p-0 transition-all hover:border-white/16 hover:bg-white/12"
           onClick={handleZoomOut}
           size="lg"
           variant="ghost"
